@@ -1,0 +1,271 @@
+body{
+    margin: 0; 
+    padding: 0;
+    font-family: Arial;
+}
+nav{
+    padding: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.4);
+    border-bottom:  1px solid #fff;
+}
+nav .logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background: rgba(0,0,0,0.5);
+    border-radius: 6px;
+}
+
+h1{
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 2px 2px rgb(251, 244, 244), 0 0 25px blue, 0 0 5px blue;
+    text-align: center;
+}
+
+div.galeria{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(235, 221, 221, 0.19);
+    float: left;
+    width: 350px;
+}
+
+div.galeria img{
+    width: 350px;
+    height: 441px;
+    
+}
+
+div.galeria:hover{
+    bottom:1px solid rgb(218, 38, 38);
+    transform: rotate(-deg);
+}
+
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px lightskyblue;
+    padding: 10px;
+    
+}
+p{
+    color: #ffffff;
+}
+#tudo{
+    width: 1300px;
+}
+
+#parte_inferior{
+    height: 1000px;
+}
+
+#verdeclaro{
+    float: left;
+    height: 290px;
+    width: 220px;
+    margin: 10px;
+	box-shadow: 1px 1px 5px 5px lightskyblue;
+
+}
+
+
+#azul{
+    height: 290px;
+    width: 220px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 100px;
+	box-shadow: 1px 1px 5px 5px lightskyblue;
+}
+
+#verde{
+    height: 290px;
+    width: 220px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 100px;
+	box-shadow: 1px 1px 5px 5px lightskyblue;
+
+}
+
+#contato4{
+    height: 290px;
+    width: 220px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 100px;
+	box-shadow: 1px 1px 5px 5px lightskyblue;
+
+}
+
+#nome1{
+	color: rgb(0, 247, 255);
+}
+
+#nome2{
+	color: rgb(0, 247, 255);
+}
+
+#nome3{
+	color: rgb(0, 247, 255);
+}
+
+#nome4{
+	color: rgb(0, 247, 255);
+}
+
+#oqe{
+	color: rgb(0, 247, 255);
+}
+
+#email{
+	margin-top: 60px;
+}
+
+.email{
+	margin-top: 60px;
+	color: rgb(0, 247, 255);
+}
+
+.emaila{
+	color: blueviolet;
+    margin-left: 2px;
+}
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+  
+  hr {
+    border:0;
+    height:1px;
+    background:#eee;
+
+  }
+  
+  .wrap {
+    margin:auto;
+    width:960px;
+  }
+  
+  .row {
+    margin-left:-30px;
+  }
+  
+  .row-slider {
+    margin-top:-120px;
+  }
+  
+  .pull-left {
+    float:left;
+  }
+  
+  .pull-right {
+    float:right;
+  }
+  
+  .color-1 {
+    overflow:hidden;
+    padding:60px 0;
+    width:100%;
+    color:#fff;
+  }
+  .slider {
+
+    width:100%;
+    height: 610px; background:rgb(0, 0, 0);
+    
+  }
+  
+  .slider p {
+    margin:0;
+    padding:260px 0 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size:28px;
+    font-weight:300;
+    text-align:center;
+    text-shadow: 2px 2px 5px rgb(17, 0, 254);
+    line-height:30px;
+  }
+  
+  .slider b {
+    font-weight:400;
+  }
+
+  .col-1 {
+    float:left;
+    margin-left:30px;
+    width:300px;
+  }
+  
+ 
+  
+  .destaque .col-1 {
+    width:250px;
+    padding:25px;
+    border-bottom:2px solid #fff7f7;
+    background:rgb(255, 255, 255);
+  }
+  
+  .destaque .col-1 h1,
+  .conteudo .col-1 h1{
+    margin:0 0 25px;
+    font-family: 'Roboto Slab', serif;
+    font-size:28px;
+    font-weight:400;
+    line-height:28px;
+    color:#333;
+  }
+  
+  
+  .destaque .col-1 p,
+  .conteudo .col-1 p{
+    font-family: Arial;
+    font-size:16px;
+    font-weight:300;
+    line-height:28px;
+    color:rgb(0, 0, 0);
+  }
+  
+  .destaque .col-1 p:last-child,
+  .conteudo .col-1 p:last-child{
+    margin-bottom:0;
+    padding-bottom:0;
+  }
+  
+  .espacamento {
+    margin-top:60px;
+  }
+  
+  .conteudo .texto {
+    text-align:center;
+    
+  }
